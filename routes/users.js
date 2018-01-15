@@ -29,7 +29,7 @@ router.post('/mailUser', function(req, res, next) {
     text: "Hi there,\n\n"+
     req.body.message+"\n\n"+
     "That’s all for now!\n"+
-    "-Ashray Shah"
+    "-AWS Mailer"
     
  }, function(error, response){  //callback
     if(error){
